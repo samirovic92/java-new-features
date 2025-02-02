@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="371e909a-2c76-4c62-ad56-c4a736b945a1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/SealedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/RecordTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/src/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/utils/src/module-info.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +36,9 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.RecordTest.executor": "Run",
     "Application.Runner.executor": "Run",
+    "Application.SealedTest.executor": "Run",
     "Application.SwitchTest.executor": "Run",
     "Application.TypeInferenceTest.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -57,7 +60,20 @@
       <recent name="$PROJECT_DIR$/utils/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SealedTest">
+  <component name="RunManager" selected="Application.RecordTest">
+    <configuration name="RecordTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.RecordTest" />
+      <module name="java-new-features" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.Runner" />
       <module name="runner" />
@@ -112,10 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RecordTest" />
+        <item itemvalue="Application.Runner" />
         <item itemvalue="Application.SealedTest" />
         <item itemvalue="Application.TypeInferenceTest" />
         <item itemvalue="Application.SwitchTest" />
-        <item itemvalue="Application.Runner" />
       </list>
     </recent_temporary>
   </component>
@@ -135,7 +152,7 @@
       <option name="presentableId" value="Default" />
       <updated>1738424363416</updated>
       <workItem from="1738424364506" duration="730000" />
-      <workItem from="1738490400220" duration="3167000" />
+      <workItem from="1738490400220" duration="4132000" />
     </task>
     <task id="LOCAL-00001" summary="Implement Modularity in Java 9">
       <option name="closed" value="true" />
@@ -169,7 +186,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738494393973</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Sealed Class &amp; interfaces">
+      <option name="closed" value="true" />
+      <created>1738526263082</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1738526263082</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,6 +205,7 @@
     <MESSAGE value="Switch Enhancement #1" />
     <MESSAGE value="Switch as an Expression #2" />
     <MESSAGE value="Local Variable Type Inference" />
-    <option name="LAST_COMMIT_MESSAGE" value="Local Variable Type Inference" />
+    <MESSAGE value="Sealed Class &amp; interfaces" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sealed Class &amp; interfaces" />
   </component>
 </project>
