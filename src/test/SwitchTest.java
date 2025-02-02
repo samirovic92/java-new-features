@@ -4,6 +4,7 @@ public class SwitchTest {
 
     public static void main(String[] args) {
         String day = "Monday";
+
         switch (day) {
             case "Saturday" -> System.out.println("Samedi");
             case "Sunday" -> System.out.println("Dimanche");
@@ -13,5 +14,13 @@ public class SwitchTest {
             case "Thursday" -> System.out.println("Jeudi");
             default -> System.out.println("Vendredi");
         }
+
+        String wakeUpTime = switch (day) {
+            case "Saturday", "Sunday" -> "9am";
+            case "Monday" -> "7am";
+            default -> "8am";
+        };
+
+        System.out.println(String.format("Wake Up time in %s is %s", day, wakeUpTime));
     }
 }
