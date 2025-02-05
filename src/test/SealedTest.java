@@ -4,25 +4,25 @@ public class SealedTest {
 
     public static void main(String[] args) {
         System.out.println("Test Sealed class");
-        A a = new A();
-        B b = new B();
-        C c = new C();
+        Vehicle vehicle = new Vehicle();
+        Car car = new Car();
+        Bike bike = new Bike();
     }
 }
 // ----- Sealed Class -----
-sealed class A permits B, C {
+sealed class Vehicle permits Car, Bike {
 
 }
 
-non-sealed class B extends A{
+non-sealed class Car extends Vehicle {
 
 }
 
-final class C extends A {
+final class Bike extends Vehicle {
 
 }
 
-class D extends B {
+class D extends Car {
 
 }
 
