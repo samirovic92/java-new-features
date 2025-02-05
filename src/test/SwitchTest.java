@@ -5,6 +5,7 @@ public class SwitchTest {
     public static void main(String[] args) {
         String day = "Monday";
 
+        // switch statement
         switch (day) {
             case "Saturday" -> System.out.println("Samedi");
             case "Sunday" -> System.out.println("Dimanche");
@@ -15,6 +16,7 @@ public class SwitchTest {
             default -> System.out.println("Vendredi");
         }
 
+        // switch expression
         String wakeUpTime = switch (day) {
             case "Saturday", "Sunday" -> "9am";
             case "Monday" -> "7am";

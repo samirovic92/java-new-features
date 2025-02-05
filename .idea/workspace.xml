@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="371e909a-2c76-4c62-ad56-c4a736b945a1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/RecordTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/StringTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/src/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/utils/src/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/SwitchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/SwitchTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +39,7 @@
     "Application.RecordTest.executor": "Run",
     "Application.Runner.executor": "Run",
     "Application.SealedTest.executor": "Run",
+    "Application.StringTest.executor": "Run",
     "Application.SwitchTest.executor": "Run",
     "Application.TypeInferenceTest.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -60,7 +61,7 @@
       <recent name="$PROJECT_DIR$/utils/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RecordTest">
+  <component name="RunManager" selected="Application.StringTest">
     <configuration name="RecordTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test.RecordTest" />
       <module name="java-new-features" />
@@ -100,8 +101,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SwitchTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.SwitchTest" />
+    <configuration name="StringTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.StringTest" />
       <module name="java-new-features" />
       <extension name="coverage">
         <pattern>
@@ -128,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StringTest" />
         <item itemvalue="Application.RecordTest" />
         <item itemvalue="Application.Runner" />
         <item itemvalue="Application.SealedTest" />
         <item itemvalue="Application.TypeInferenceTest" />
-        <item itemvalue="Application.SwitchTest" />
       </list>
     </recent_temporary>
   </component>
@@ -152,7 +153,8 @@
       <option name="presentableId" value="Default" />
       <updated>1738424363416</updated>
       <workItem from="1738424364506" duration="730000" />
-      <workItem from="1738490400220" duration="4132000" />
+      <workItem from="1738490400220" duration="4936000" />
+      <workItem from="1738767262283" duration="1255000" />
     </task>
     <task id="LOCAL-00001" summary="Implement Modularity in Java 9">
       <option name="closed" value="true" />
@@ -194,7 +196,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738526263082</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Record class">
+      <option name="closed" value="true" />
+      <created>1738527955846</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1738527955846</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -206,6 +216,7 @@
     <MESSAGE value="Switch as an Expression #2" />
     <MESSAGE value="Local Variable Type Inference" />
     <MESSAGE value="Sealed Class &amp; interfaces" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sealed Class &amp; interfaces" />
+    <MESSAGE value="Record class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Record class" />
   </component>
 </project>
